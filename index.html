@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Clothes Update</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://catalog.ebizupdates.net/theme/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Select2 -->
+    <link rel="stylesheet" href="https://catalog.ebizupdates.net/theme/bower_components/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background: #e5ddd5 url('https://catalog.ebizupdates.net/images/updates_bg.png') center center repeat;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        #div-sf {
+            background: #ffffff;
+            text-align: left;
+            margin: auto;
+            width: 96%;
+            max-width: 100%;
+            border: solid 2px #a0948a;
+            border-radius: 5px;
+            padding: 8px 6px;
+            margin-bottom: 7px;
+        }
+
+        #sf label {
+            font-size: 14px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        .wa_div {
+            float: left;
+            clear: both;
+            background: #ffffff;
+            max-width: 80%;
+            border: solid 10px #ffffff !important;
+            border-radius: 5px;
+            margin: 0px 0px 4px 15px;
+            box-shadow: 0px 0px 7px -4px #000000;
+            font-size: 20px;
+            width: 480px;
+            position: relative;
+        }
+
+        .copyicon {
+            position: absolute;
+            right: 0px;
+            cursor: pointer;
+        }
+
+        @media screen and (max-width: 900px) {
+            .wa_div {
+                float: none;
+                width: 90%;
+                max-width: 90%;
+                font-size: 16px;
+                margin: 0px 0px 4px 5px;
+                border: solid 5px #ffffff !important;
+            }
+        }
+    </style>
+    <script>
+        function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+            alert('Message copied!');
+        }
+    </script>
+    <script>
+        var SITE_URL = 'https://new.ebizupdates.net/';
+        var ENGINE_URL = 'https://catalog.ebizupdates.net/';
+    </script>
+      <link rel="shortcut icon" href="./favicon.png">
+</head>
+
+<body>
+    <div id="div-sf">
+        <form id="sf" method="get" action="https://new.ebizupdates.net/">
+            <select id="search" name="search" class="form-control select2" style="width: 280px;">
+			    <option value="">[Search]</option>
+			            			        <option value="
+Quality" >
+Quality</option>
+        			                			        <option value="
+🌸_SUMMER" >
+🌸_SUMMER</option>
+        			                			        <option value="(VOL" >(VOL</option>
+        			                			        <option value="MOST" >MOST</option>
+        			                			        <option value="RE-STOCK" >RE-STOCK</option>
+        			                			        <option value="RE-STOCK" >RE-STOCK</option>
+        			                			        <option value="_🌸SUMMER" >_🌸SUMMER</option>
+        			                			        <option value="🌸_SUMMER" >🌸_SUMMER</option>
+        			                			        <option value="📌
+🌸_SUMMER" >📌
+🌸_SUMMER</option>
+        			                			        <option value="2021)
+Category" >2021)
+Category</option>
+        			                			        <option value="2021)_
+Category" >2021)_
+Category</option>
+        			                			        <option value="2PC_" >2PC_</option>
+        			                			        <option value="2PC_
+Quality" >2PC_
+Quality</option>
+        			                			        <option value="2PC_
+Quality" >2PC_
+Quality</option>
+        			                			        <option value="3PC_" >3PC_</option>
+        			                			        <option value="3PC_
+Quality" >3PC_
+Quality</option>
+        			                			        <option value="90x70" >90x70</option>
+        			                			        <option value=":LAWN" >:LAWN</option>
+        			                			        <option value="ADANS" >ADANS</option>
+        			                			        <option value="AFROZEH" >AFROZEH</option>
+        			                			        <option value="AFTAB" >AFTAB</option>
+        			                			        <option value="AHMED" >AHMED</option>
+        			                			        <option value="AL-KARAM" >AL-KARAM</option>
+        			                			        <option value="ALMIRAH" >ALMIRAH</option>
+        			                			        <option value="AL_KARAM" >AL_KARAM</option>
+        			                			        <option value="ANAYA" >ANAYA</option>
+        			                			        <option value="ASIFA" >ASIFA</option>
+        			                			        <option value="ASIM" >ASIM</option>
+        			                			        <option value="AZURE" >AZURE</option>
+        			                			        <option value="Al-KARAM" >Al-KARAM</option>
+        			                			        <option value="BAKSH" >BAKSH</option>
+        			                			        <option value="BAROQUE" >BAROQUE</option>
+        			                			        <option value="CHARIZMA" >CHARIZMA</option>
+        			                			        <option value="CHOTTANI" >CHOTTANI</option>
+        			                			        <option value="COLLECTION_🌸
+Brand" >COLLECTION_🌸
+Brand</option>
+        			                			        <option value="COLLECTION_🌸
+Re" >COLLECTION_🌸
+Re</option>
+        			                			        <option value="COLLECTION🌸
+Brand" >COLLECTION🌸
+Brand</option>
+        			                			        <option value="CORSS" >CORSS</option>
+        			                			        <option value="CROSS" >CROSS</option>
+        			                			        <option value="DEMANDING" >DEMANDING</option>
+        			                			        <option value="Digital
+Quality" >Digital
+Quality</option>
+        			                			        <option value="EDEN" >EDEN</option>
+        			                			        <option value="EDENROBE" >EDENROBE</option>
+        			                			        <option value="ETHNIC" >ETHNIC</option>
+        			                			        <option value="FARASHA" >FARASHA</option>
+        			                			        <option value="FIRDOUS" >FIRDOUS</option>
+        			                			        <option value="HOUSE" >HOUSE</option>
+        			                			        <option value="ITTEHAAD" >ITTEHAAD</option>
+        			                			        <option value="IZNIK" >IZNIK</option>
+        			                			        <option value="JAMZIN" >JAMZIN</option>
+        			                			        <option value="JOFA" >JOFA</option>
+        			                			        <option value="KAMAL" >KAMAL</option>
+        			                			        <option value="KANWAL" >KANWAL</option>
+        			                			        <option value="KAYSARIYA" >KAYSARIYA</option>
+        			                			        <option value="KHAADI" >KHAADI</option>
+        			                			        <option value="KHUDA" >KHUDA</option>
+        			                			        <option value="KIDS
+Quality" >KIDS
+Quality</option>
+        			                			        <option value="KROSS" >KROSS</option>
+        			                			        <option value="KULTURE" >KULTURE</option>
+        			                			        <option value="LAWN" >LAWN</option>
+        			                			        <option value="LIBAS" >LIBAS</option>
+        			                			        <option value="LIGHT" >LIGHT</option>
+        			                			        <option value="LIME" >LIME</option>
+        			                			        <option value="MALHAR" >MALHAR</option>
+        			                			        <option value="MARIA.B" >MARIA.B</option>
+        			                			        <option value="MOHAGANI" >MOHAGANI</option>
+        			                			        <option value="MOTIFZ" >MOTIFZ</option>
+        			                			        <option value="NABEEL" >NABEEL</option>
+        			                			        <option value="NAKOOSH" >NAKOOSH</option>
+        			                			        <option value="NAZIR" >NAZIR</option>
+        			                			        <option value="NISHAT" >NISHAT</option>
+        			                			        <option value="NOOR" >NOOR</option>
+        			                			        <option value="Name:" >Name:</option>
+        			                			        <option value="Name:" >Name:</option>
+        			                			        <option value="ORIENT" >ORIENT</option>
+        			                			        <option value="PHULKARI" >PHULKARI</option>
+        			                			        <option value="QALAMKAR" >QALAMKAR</option>
+        			                			        <option value="RAJBARI" >RAJBARI</option>
+        			                			        <option value="RANG" >RANG</option>
+        			                			        <option value="RASYA" >RASYA</option>
+        			                			        <option value="ROBE" >ROBE</option>
+        			                			        <option value="SADIA" >SADIA</option>
+        			                			        <option value="SAFINAZ" >SAFINAZ</option>
+        			                			        <option value="SANA" >SANA</option>
+        			                			        <option value="SAPPHIRE" >SAPPHIRE</option>
+        			                			        <option value="SIFONA" >SIFONA</option>
+        			                			        <option value="SOBIA" >SOBIA</option>
+        			                			        <option value="STITCH" >STITCH</option>
+        			                			        <option value="Stock
+Brand" >Stock
+Brand</option>
+        			                			        <option value="TASSELS" >TASSELS</option>
+        			                			        <option value="ZAHRA" >ZAHRA</option>
+        			                			        <option value="ZAINAB" >ZAINAB</option>
+        			                			        <option value="_(VOL" >_(VOL</option>
+        			                			        <option value="🌸SUMMER" >🌸SUMMER</option>
+        			                			        <option value="📌
+🌸_SUMMER" >📌
+🌸_SUMMER</option>
+        			                			        <option value="🔥" >🔥</option>
+        			                			        <option value="🔥
+🌸_SUMMER" >🔥
+🌸_SUMMER</option>
+        			        			</select>&nbsp;
+            <input type="button" value="Search" id="btn-seacrh" class="btn btn-info" />
+        </form>
+    </div>
+    <input type="hidden" id="si" value="0" />
+    <div class="wa_div text">
+        <img src="https://catalog.ebizupdates.net/images/bc-icon.png" alt="" style="vertical-align: middle;margin-right: 5px;width: 35px;" /> <strong>Last Updated</strong> on 14/07/2021</div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019529.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019531.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019532.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div text" onclick="copyToClipboard(this);">
+         *🌸_SUMMER COLLECTION_🌸* <i class="fa fa-files-o copyicon" aria-hidden="true"></i><br /> *Brand Name*: CHARIZMA _(VOL 2021)_<br /> *Category* :LAWN 3PC_<br /> *Quality* : 90x70 AIRJET<br /> *Dress Code*: 990<br /> *Product Description*<br /> ✅Daman Heavy Embroidery<br /> ✅With
+        Full Embroidery Chiffon Dupata<br /> ✅Same As Original<br />
+        <br /> 👉 *Wholesale Price* 1650-Exclude Delivery </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019471.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019474.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019476.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div text" onclick="copyToClipboard(this);">
+         *🌸_SUMMER COLLECTION_🌸* <i class="fa fa-files-o copyicon" aria-hidden="true"></i><br /> *Brand Name*: ETHNIC _(VOL 2021)_<br /> *Category* :LAWN 2PC_<br /> *Quality* : 90x70 AIRJET<br /> *Dress Code*: 2152<br /> *Product Description*<br /> ✅Front Full Embroidery *Double Head*<br
+        /> ✅Sleeves Embroidery<br /> ✅Trouser Embroidery<br /> ✅Same As Original<br />
+        <br /> 👉 *Wholesale Price* 1550-Exclude Delivery </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019442.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019443.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019444.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div text" onclick="copyToClipboard(this);">
+         *🌸_SUMMER COLLECTION_🌸* <i class="fa fa-files-o copyicon" aria-hidden="true"></i><br /> *Brand Name*: ZAHRA AHMED _(VOL 2021)_<br /> *Category* :LAWN 3PC_<br /> *Quality* : 90x70 AIRJET<br /> *Dress Code*: 1073<br /> *Product Description*<br /> ✅Front Full Embroidery *Chikken
+        Kari Work*<br /> ✅Neck Embroidery Patch<br /> ✅Sleeves Embroidery<br /> ✅Daman Embroidery Patch<br /> ✅Printed Trouser<br /> ✅With BAMBER Embroidery Chiffon Dupata<br /> ✅Same As Original<br />
+        <br /> 👉 *Wholesale Price* 2550-Exclude Delivery </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019406.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019408.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019409.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div text" onclick="copyToClipboard(this);">
+         *🌸_SUMMER COLLECTION_🌸* <i class="fa fa-files-o copyicon" aria-hidden="true"></i><br /> *Brand Name*: AFROZEH _(VOL 2021)_<br /> *Category* :LAWN 3PC_<br /> *Quality* : 90x70 AIRJET<br /> *Dress Code*: 1134<br /> *Product Description*<br /> ✅Front Full Embroidery *Heavy Sequence
+        Work*<br /> ✅Sleeves Embroidery *Sequence Work*<br /> ✅Daman Embroidery Patch<br /> ✅Trouser Embroidery<br /> ✅With BAMBER Embroidery Chiffon Dupata<br /> ✅Same As Original<br />
+        <br /> 👉 *Wholesale Price* 2550-Exclude Delivery </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019365.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019366.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div text" onclick="copyToClipboard(this);">
+         *🌸_SUMMER COLLECTION_🌸* <i class="fa fa-files-o copyicon" aria-hidden="true"></i><br /> *Brand Name*: CHARIZMA _(VOL 2021)_<br /> *Category* :LAWN 3PC_<br /> *Quality* : 90x70 AIRJET<br /> *Dress Code*: 995<br /> *Product Description*<br /> ✅Neck Heavy Embroidery<br /> ✅Trouser
+        Embroidery<br /> ✅With Printed Chiffon Dupata<br /> ✅Same As Original<br />
+        <br /> 👉 *Wholesale Price* 1600-Exclude Delivery </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019336.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019337.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019338.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div text" onclick="copyToClipboard(this);">
+         *🌸_SUMMER COLLECTION_🌸* <i class="fa fa-files-o copyicon" aria-hidden="true"></i><br /> *Brand Name*: MARIA.B _(VOL 2021)_<br /> *Category* : LAWN 2PC_ <br /> *Quality* : 90x70 AIRJET<br /> *Dress Code*: DF108<br /> *Product Description*<br /> ✅Front Full Embroidery *Double
+        Head*<br /> ✅Sleeves Embroidery<br /> ✅Trouser Embroidery<br /> ✅Same As Original<br />
+        <br /> 👉 *Wholesale Price* 1600+exclude delivery </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019288.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019289.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019290.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div text" onclick="copyToClipboard(this);">
+         *🌸_SUMMER COLLECTION_🌸* <i class="fa fa-files-o copyicon" aria-hidden="true"></i><br /> *Brand Name*: KANWAL AFTAB _(VOL 2021)_<br /> *Category* :LAWN 3PC_<br /> *Quality* : 90x70 AIRJET<br /> *Dress Code*: 857<br /> *Product Description*<br /> ✅Front Full Embroidery<br />        ✅Sleeves Embroidery<br /> ✅Daman Embroidery Patch<br /> ✅With BAMBER Embroidery Chiffon Dupata<br /> ✅Same As Original<br />
+        <br /> 👉 *Wholesale Price* 2250-Exclude Delivery </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019258.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019259.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div text" onclick="copyToClipboard(this);">
+         *🌸_SUMMER COLLECTION_🌸* <i class="fa fa-files-o copyicon" aria-hidden="true"></i><br /> *Brand Name*: CHARIZMA _(VOL 2021)_<br /> *Category* :LAWN 3PC_<br /> *Quality* : 90x70 AIRJET<br /> *Dress Code*: 1075<br /> *Product Description*<br /> ✅Daman Embroidery Patch<br />        ✅Back Embroidery Patch<br /> ✅With Printed Chiffon Dupata<br /> ✅Same As Original<br />
+        <br /> 👉 *Wholesale Price* 1550-Exclude Delivery </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019226.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019227.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019228.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019229.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div text" onclick="copyToClipboard(this);">
+         *🌸_SUMMER COLLECTION_🌸* <i class="fa fa-files-o copyicon" aria-hidden="true"></i><br /> *Brand Name*: QALAMKAR _(VOL 2021)_<br /> *Category* :LAWN 3PC_<br /> *Quality* : 90x70 AIRJET<br /> *Dress Code*: 1071<br /> *Product Description*<br /> ✅Daman Heavy Embroidery<br />        ✅With Printed Chiffon Dupata<br /> ✅Same As Original<br />
+        <br /> 👉 *Wholesale Price* 1450-Exclude Delivery </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019186.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019188.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019189.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div">
+        <img src="https://new.ebizupdates.net/products_images/1622019190.jpg" alt="" style="width:100%" />
+    </div>
+    <div class="wa_div text" onclick="copyToClipboard(this);">
+         *🌸_SUMMER COLLECTION_🌸* <i class="fa fa-files-o copyicon" aria-hidden="true"></i><br /> *Brand Name*: FIRDOUS _(VOL 2021)_<br /> *Category* :LAWN 3PC_<br /> *Quality* : 90x70 AIRJET<br /> *Dress Code*: 1067<br /> *Product Description*<br /> ✅Neck Heavy Embroidery<br /> ✅With
+        Printed Chiffon Dupata<br /> ✅Same As Original<br />
+        <br /> 👉 *Wholesale Price* 1450-Exclude Delivery </div>
+    <div id="loaded_products">
+
+    </div>
+    <script>
+        function nl2br(str, is_xhtml) {
+            var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br>';
+            return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
+        }
+
+        $(window).scroll(function() {
+            if ($(window).scrollTop() >= $(document).height() - $(window).height() - 100) {
+                var si = $('#si').val();
+                si = parseFloat(+si) + 10;
+                $('#si').val(si);
+                $.ajax({
+                    url: SITE_URL + "ajax_globals/get_product_updates",
+                    type: 'GET',
+                    data: {
+                        si: si
+                    },
+                    dataType: 'json',
+                    success: function(res) {
+                        for (var i = 0; i < res.length; i++) {
+                            (function(index) {
+                                var prod_html = '';
+                                var product_id = res[index].id;
+                                $.ajax({
+                                    url: SITE_URL + "ajax_globals/get_product_images",
+                                    type: 'GET',
+                                    data: {
+                                        product_id: product_id
+                                    },
+                                    dataType: 'json',
+                                    success: function(res_images) {
+                                        var prod_imgs = '';
+                                        for (var ii = 0; ii < res_images.length; ii++) {
+                                            prod_html += '<div class="wa_div">';
+                                            prod_html += '<img src="' + SITE_URL + 'products_images/' + res_images[ii].image_name + '" alt="" style="width:100%" />';
+                                            prod_html += '</div>';
+                                        }
+                                        prod_html += '<div class="wa_div text" onclick="copyToClipboard(this);">';
+                                        prod_html += '';
+                                        prod_html += nl2br(res[index].details);
+                                        prod_html += '</div>';
+                                        $('#loaded_products').append(prod_html);
+                                    }
+                                });
+                            })(i);
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+    <div style="position:fixed;bottom: 25px;left: 25px;">
+        <a href="https://wa.link/ilc1rr" target="_blank">
+    <img src="https://catalog.ebizupdates.net/images/wa-logo.png" alt="" />
+</a>
+    </div>
+    <script>
+        $('#btn-seacrh').click(function() {
+            $('#search').val($('#search option:last-child').val());
+            $('#search').trigger('change');
+            $('#sf').submit();
+        });
+    </script>
+    <!-- Select2 -->
+    <script src="https://catalog.ebizupdates.net/theme/bower_components/select2/dist/js/select2.full.min.js"></script>
+    <script>
+        $('.select2').select2({
+            tags: true
+        });
+    </script>
+</body>
+
+</html>
